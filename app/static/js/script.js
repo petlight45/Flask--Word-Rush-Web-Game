@@ -174,7 +174,7 @@ $(function(){
 
     entry.on('keypress',function(k){
         if (k.keyCode === 13 && state_running){
-            if (entry.val() === state_current_word){
+            if (entry.val().toLowerCase().replace(" ","") === state_current_word.toLowerCase().replace(" ","")){
                 rerender()
             }else{
                 state_word_typed = false
