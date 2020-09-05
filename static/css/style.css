@@ -1,0 +1,50 @@
+.content-wrapper{
+    width: 100%;
+    max-width: 800px;
+}
+
+.logo{
+    left: 5%;
+}
+.word{
+    font-size: 2.0rem;
+    text-transform: uppercase;
+    font-stretch: extra-expanded;
+}
+
+.indicator{
+    max-width: 500px;
+}
+
+.full-width{
+    width: 100%;
+}
+
+.entry-wrap{
+    max-width: 600px;
+}
+
+.info{
+    font-weight: 600;
+    font-size: 1.0rem;
+    min-width: 150px;
+    max-width: 200px;
+    width: 100vw;
+}
+
+.button-cont{
+    flex-grow: 1;
+}
+
+.indicator{
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+
+.text-decoration-null{
+    text-decoration: none;
+}
+
+.divider{
+    border: 1px solid rgba(0,0,0,0.8);
+}
